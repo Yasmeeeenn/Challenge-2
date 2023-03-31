@@ -1,0 +1,148 @@
+
+.header {
+    display: flex;
+    flex-direction: column;
+    background-color: #78785b;
+    color: rgb(30, 53, 8);
+}
+
+.header p{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 30px;
+    margin: 2px;
+    padding-right: 30px;
+    
+    
+}
+
+.header h1{
+    font-size: 50px;
+}
+.tour{
+    display: flex;
+}
+.tour a{
+    align-items: center;
+    margin: 10px;
+    font-size: 25px;
+    text-align: center;
+}
+.top{
+    display: flex;
+    justify-content: space-around;
+}
+.top img{
+    height: 200px;
+    width: 200px;
+    padding: 20px;
+}
+
+
+
+.aboutMe{
+    display: flex;
+    background-color: #f9e4c0 ;
+}
+.aboutMe h2{
+    font-size: 30px;
+    color: rgb(30, 53, 8);
+    padding-left: 100px;
+}
+.aboutMe p{
+    font-size: 17px;
+    padding-left: 60px;
+}
+
+
+.work{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(4,200px);
+    grid-gap: 5px;
+    margin: 5px;
+    background-color: #bd3500;
+    
+
+}
+.work h2{
+    font-size: 30px;
+    color: rgb(30, 53, 8);
+    padding-left: 100px;
+}
+    
+.item{
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 25px;
+    grid-column: 1/span 1;
+    grid-row: 1/span 4;
+    
+    
+}
+
+.itemActive{
+    box-sizing: border-box;
+    border: 1px solid black;
+    text-align: center;
+    grid-column: 2/span 5;
+    grid-row: 1/span 2;
+    font-size: 25px;
+    margin: 2px;
+    background-color: #620100;
+    
+    
+}
+.itemC{
+    box-sizing: border-box;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 25px;
+    grid-column: 2/span 2;
+    grid-row: 3/span 1;
+    margin: 2px;
+    background-color: #620100;
+}
+.itemI{
+    box-sizing: border-box;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 25px;
+    grid-column: 4/span 2;
+    grid-row: 3/span 1;
+    margin: 2px;
+    background-color: #620100;
+}
+.itemW{
+    box-sizing: border-box;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 25px;
+    grid-column: 2/span 2;
+    margin: 2px;
+    background-color: #620100;
+
+}
+.contactMe{
+    display: flex;
+    background-color: #8f7766;
+    
+}
+.contactMe h2{
+    font-size: 30px;
+    color: rgb(30, 53, 8);
+    padding-left: 100px;
+}
+.contactMe p{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: auto;
+}
+
+
+
+
+
+
